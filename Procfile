@@ -1,0 +1,1 @@
+web: java -cp target/classes:target/dependency/* com.rest_ws_deploy_heroku.heroku.Main
