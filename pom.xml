@@ -50,7 +50,7 @@
             <artifactId>jersey-test-framework-provider-bundle</artifactId>
             <type>pom</type>
             <scope>test</scope>
-        </dependency>
+        </dependency> 
     </dependencies>
 
     <build>
@@ -95,6 +95,10 @@
                     <war>${project.build.directory}/${project.build.finalName}.war</war>
                 </configuration>
             </plugin>
+            
+
+        
+        
         </plugins>
     </build>
 
