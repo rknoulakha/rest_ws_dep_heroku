@@ -1,0 +1,18 @@
+1. Create clone of the project.
+2. Eclipse -> New -> Import -> Existing Maven Project
+3. Right click on the project and  Update Maven and run it locally. (eg: http://localhost:8081/rest-ws-deploy-heroku/myresource)
+4. Cmd prompt-> go to your project path ->
+
+heroku login
+heroku create your-url
+heroku open
+
+
+
+URL for this project is : https://rest-ws-deploy-heroku.herokuapp.com/myresource
+
+************************ If you want to create new project ************************
+
+Group Id 		:    org.glassfish.jersey.archtype
+Artifact Id 	:    jersey-heroku-webapp
+Version 		:	 2.23.2
